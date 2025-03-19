@@ -3,8 +3,7 @@ import random
 NumberOfTimeToBeExecuted = int(input("Enter the number to time the program has to be executed: "))
 
 while True:
-    a = input("Enter the object (Dice OR Coin): ")
-    a.lower()
+    a = input("Enter the object (Dice OR Coin): ").lower()
 
     if a == "coin":
         No_of_heads = 0
