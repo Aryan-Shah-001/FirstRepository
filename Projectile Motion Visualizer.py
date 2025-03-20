@@ -20,7 +20,7 @@ fig, ax = plt.subplots()
 
 ax.plot(horizontalFunc, verticalFunc, color="blue")
 
-plt.xlabel(xlabel="Time", color="red", fontweight="bold")
+plt.xlabel(xlabel="Distance", color="red", fontweight="bold")
 plt.ylabel(ylabel="Height", color="red", fontweight="bold")
 plt.ylim(bottom=0)
 plt.grid()
